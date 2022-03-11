@@ -34,7 +34,7 @@ public class BlogController {
 		if (authVo != null) {
 			System.out.println("[블로그 접속 성공]");
 
-			// 수정하기
+			
 			List<CategoryVo> categoryList = (List<CategoryVo>) bMap.get("categoryList");
 			List<PostVo> postList = (List<PostVo>) bMap.get("postList");
 			BlogVo blogVo = (BlogVo) bMap.get("blogVo");
